@@ -1,0 +1,121 @@
+{
+	"id": "6dad1c91-2a8d-4c29-a122-da94e5465c68",
+	"name": "PetStoreSwagger",
+	"timestamp": "2024-02-07T10:50:06.895Z",
+	"collection_id": "30561425-3774b251-b60b-4793-b178-d8843d044aac",
+	"folder_id": 0,
+	"environment_id": "30561425-fee4dbf4-81e9-4794-aea8-6e5d07ba2598",
+	"totalPass": 4,
+	"delay": "1",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-07T10:50:05.496Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "10ca0b28-2ef1-4605-ba96-556a887bac1c",
+			"name": "https://petstore.swagger.io/v2/user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 271,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				271
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "782f4d31-0d94-4b5a-9fe4-22631de25379",
+			"name": "Get the user name",
+			"url": "https://petstore.swagger.io/v2/user/uj54pag13fp",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"check the firstname": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"check the firstname": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"check the firstname": true
+				}
+			]
+		},
+		{
+			"id": "aea171d6-10e8-4d16-9c6f-dcd1cf91db6d",
+			"name": "Update the user name",
+			"url": "https://petstore.swagger.io/v2/user/uj54pag13fp",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 807,
+	"collection": {
+		"requests": [
+			{
+				"id": "10ca0b28-2ef1-4605-ba96-556a887bac1c",
+				"method": "POST"
+			},
+			{
+				"id": "782f4d31-0d94-4b5a-9fe4-22631de25379",
+				"method": "GET"
+			},
+			{
+				"id": "aea171d6-10e8-4d16-9c6f-dcd1cf91db6d",
+				"method": "PUT"
+			}
+		]
+	}
+}
